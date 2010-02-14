@@ -1,0 +1,8 @@
+title: Erlang Memoize
+author: Nick Gerakines
+date: 27/09/2008
+
+This is a small module that shows how to memoize function calls and arguments. There are some obvious holes in this design, mainly in how errors and exceptions are handled, but it was a fun learning project from when I was first getting into Erlang. Again, gb_trees are used but a more effecient data structure could probably be used. There are no tests.
+
+<script src="http://gist.github.com/13352.js?file=memoize.erl"></script>
+

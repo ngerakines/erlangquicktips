@@ -1,0 +1,8 @@
+title: An Erlang LRU module
+author: Nick Gerakines
+date: 05/10/2008
+
+A long time ago I wrote a small LRU module in Erlang. There are probably bugs and performance issues but it does the job and there are a few eunit tests. It is entirely based on gb_trees and some structured data within tree elements.
+
+<script src="http://gist.github.com/14833.js?file=lrulist.erl"></script>
+
