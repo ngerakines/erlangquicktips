@@ -1,0 +1,10 @@
+title: Creating string slugs
+author: Nick Gerakines
+date: 2010/02/12
+
+In #erlang on irc.freenode.net someone one was asking how to optomize a small function that would create a ascii string slug. I've seen both how different Ruby and Python frameworks do this and decided to give it a shot. This is what I came up with.
+
+<script src="http://gist.github.com/301967.js?file=slug.erl"></script>
+
+The person that used it said that there was a 5x performance improvement when comparing it to the way he was doing it. Instead of doing lots of small comparisons, this function will iterate once over the list and either keep or throw away elements.
+

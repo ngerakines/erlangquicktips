@@ -1,0 +1,18 @@
+title: Extending Modules
+author: Nick Gerakines
+date: 30/10/2009
+
+At some point I got really interested in modules extending other modules and how that sort of functionality could be manipulated. You can also do some really cool things with module state instances and that information can be extended as well. When trying to explain how it works to someone, I created this really basic proof of concept.
+
+A parent module exports some functionality:
+
+<script src="http://gist.github.com/149735.js?file=nick.erl"></script>
+
+A child module extends the parent and is able to use that functionality:
+
+<script src="http://gist.github.com/149735.js?file=vanessa.erl"></script>
+
+In action:
+
+<script src="http://gist.github.com/149735.js?file=gistfile1.txt"></script>
+

@@ -1,0 +1,10 @@
+title: Upgrading mnesia tables
+author: Nick Gerakines
+date: 2010/01/07
+
+For [Calenderl About Nothing](http://calenderlaboutnothing.com/) I needed to add a new field to one of the core records being stored in mnesia. Actually doing it is trivial but it is the sort of 'measure twice, cut once' thing and I didn't want to muck it up. I also took this opportunity to upgrade all of the plain list strings to binary strings to see what impact it would have on performance. This is the snippet that I used:
+
+<script src="https://gist.github.com/266324.js?file=gistfile1.hrl"></script>
+
+For better or worse, I just executed this code within the production node. It took a long time to run, but it did the job.
+

@@ -1,0 +1,12 @@
+title: SAX parsers in xmerl
+author: Nick Gerakines
+date: 17/07/2009
+
+When R13B was on it's way out, one of the nicer features that it came with was a SAX parser for xmerl. With it, developers can create custom XML parsers and take advantage of all of the love that they bring. I wrote this really simple proof of concept to learn the xmerl SAX parser API and it's mechanics.
+
+<script src="http://gist.github.com/148903.js?file=sax.erl"></script>
+
+This is the xml document for the above parser:
+
+<script src="http://gist.github.com/148903.js?file=simple.xml"></script>
+

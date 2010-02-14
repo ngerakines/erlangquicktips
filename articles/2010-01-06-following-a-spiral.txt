@@ -1,0 +1,8 @@
+title: Following a spiral
+author: Nick Gerakines
+date: 2010/01/06
+
+For an interview question I was given a small brain teaser: For a list o f lists whos elements form a spiral, follow the data structure and print out the list. I didn't think it would be that bad and gave it a shot. I ended up doing a few different things and this is the final result. It could probably be a lot cleaner but it does the job.
+
+<script src="http://gist.github.com/270934.js?file=spiral.erl"></script>
+

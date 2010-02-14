@@ -1,0 +1,8 @@
+title: Emongo utilities
+author: Nick Gerakines
+date: 2009/10/19
+
+Back in October of 2009 we were getting really into using MongoDB and Jacob wrote the emongo application. emongo is an Erlang client library for interfacing with MongoDB and takes care of a lot of the magic in document storage and manipulation. I like the application a lot and came up with a few small functions to organize some of the common tasks that I found myself doing frequently.
+
+<script src="http://gist.github.com/213710.js?file=emonog_tools.erl"></script>
+

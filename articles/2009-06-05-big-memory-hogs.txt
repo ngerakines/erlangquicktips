@@ -1,0 +1,8 @@
+title: Big memory hogs
+author: Nick Gerakines
+date: 05/06/2009
+
+Here is a quick snippet to list the top _N_ memory consuming process for a node. Just keep in mind that memory reports are weird in Erlang and you should definitely read up on how memory is managed and freed before doing anything with these numbers.
+
+<script src="http://gist.github.com/124507.js?file=gistfile1.hrl"></script>
+

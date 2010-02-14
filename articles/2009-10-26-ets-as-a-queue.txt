@@ -1,0 +1,12 @@
+title: ETS as a queue
+author: Nick Gerakines
+date: 2009/10/26
+
+A while ago I was playing with different ways of creating a throttled queue for I Play WoW. I've experiemented with using in-process state like a list or using the actual queue module as well as using mnesia and even RabbitMQ. This was one of those attempts where the queue manager referenced an ETS table to store queue information. It worked pretty well if you don't mind the garbage collection mechanics within ETS.
+
+<script src="http://gist.github.com/218872.js?file=ets_queue.erl"></script>
+
+Here is an example worker that would use the queue.
+
+<script src="http://gist.github.com/218872.js?file=iplaywar_queue.erl"></script>
+
