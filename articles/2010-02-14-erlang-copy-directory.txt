@@ -1,0 +1,9 @@
+title: Copy Directories in Erlang
+author: Dale Harvey
+date: 14/03/2010
+
+This is a simple function to copy recusively copy directories from one location to another (ignoring any hidden files).
+
+<script src="http://gist.github.com/304254.js?file=gistfile1.hrl"></script>
+
+
