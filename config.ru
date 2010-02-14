@@ -13,6 +13,8 @@ end
 # Create and configure a toto instance
 #
 toto = Toto::Server.new do
+  set :author, 'Nick Gerakines'
+  set :disqus, false
   #
   # Add your settings here
   # set [:setting], [value]

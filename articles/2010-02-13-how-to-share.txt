@@ -1,0 +1,25 @@
+title: How To Share
+author: Nick Gerakines
+date: 2010/02/13
+
+So, you want to help out?
+
+Adding a snippet or tip is probably a lot easier than you think.
+
+Step 1: Fork
+
+Head over to github.com and create a fork of this project. Our project page is [github.com/ngerakines/erlangquicktips](http://github.com/ngerakines/erlangquicktips).
+
+Step 2: Add your snippet
+
+Add a new snippet arcticle to the articles folder. If putting your name as the author isn't enough, add a quick signature to the end of the article. All articles should look something like this:
+
+* Brief summary of what it does?
+* Where did you find it?
+* Show the snippet.
+* Explain what it does.
+
+Step 3: Commit and send a pull request
+
+Commit the snippet or tip to your forked repository and make sure you send a pull request. From that point on someone with the ability to merge snippets/tips will look it over and push it up to the site.
+

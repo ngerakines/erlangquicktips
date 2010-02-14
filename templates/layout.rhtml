@@ -6,11 +6,16 @@
     <title><%= title %></title>
   </head>
   <body>
+    <pheader> 
+     <ul> 
+     <li><a href="/">Home</a></li> 
+     </ul> 
+    </pheader> 
     <section>
-      <%= yield %> 
+      <%= yield %>
     </section>
     <footer>
-      powered by <a href="http://cloudhead.io/toto">toto</a>
+      Powered by <a href="http://cloudhead.io/toto">toto</a> and <a href="http://heroku.com/">Heroku</a>. <a href="http://github.com/ngerakines/erlangquicktips">Add your tips</a>.
     </footer>
   </body>
 </html>

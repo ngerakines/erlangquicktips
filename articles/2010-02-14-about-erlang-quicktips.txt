@@ -1,0 +1,10 @@
+title: About Erlang Quicktips
+author: Nick Gerakines
+date: 2010/02/14
+
+I was perusing the internets one day and ran accross the Ruby Quick Tips blog and a light went off. "_The Erlang community needs one of those_" I said to myself. There are plenty of ways to share snippets and code through services like Pastie and GitHub, but there aren't many ways to discover them. Hopefully, this blog can shed some light in helping you find snippets and code blocks that have been shared by others but remains hidden because of internet white noise.
+
+This site isn't mean to be an organize guide or tutorial into how to do things, but a collection of those useful pieces of code that you run across or come up with.
+
+And that is what is going to make this site useful: You. This site and it's content is open source and relies on your contributions to make it great. If you run accross a snippet, code block or concept that isn't on here then share it.
+

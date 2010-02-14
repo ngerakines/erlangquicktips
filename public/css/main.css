@@ -108,3 +108,30 @@ body > footer {
   font-size: 18px;
   color: #888;
 }
+body > pheader {
+  text-align: right;
+  width: 740px;
+  position: absolute;
+  top: 10px;
+}
+body > pheader a {
+  color: #ddd;
+  font-style: italic;
+  text-decoration: none;
+}
+body > pheader:hover a {
+  color: #3e5d7c;
+  text-decoration: none;
+}
+body > pheader a:hover {
+  color: #b83000;
+}
+body > pheader li {
+  display: inline;
+  margin: 0 15px;
+}
+body > pheader ul {
+  margin: 0;
+  padding: 0;
+}
+
