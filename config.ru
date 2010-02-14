@@ -11,7 +11,7 @@ end
 toto = Toto::Server.new do
   set :title, 'Erlang Quick Tips'
   set :author, 'Nick Gerakines'
-  set :disqus, false
+  set :disqus, 'erlangquicktips'
   set :date, lambda {|now| now.strftime("%B #{now.day.ordinal} %Y") }
 end
 
