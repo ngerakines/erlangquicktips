@@ -1,0 +1,10 @@
+title: Recover Module Source
+author: Geoff Cant
+date: 18/02/2010
+
+This shell function recreates the erlang source code from a module
+compiled with debug_info.
+
+<script src="http://gist.github.com/308360.js?file=temperl.erl"></script>
+
+
